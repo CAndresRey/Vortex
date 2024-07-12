@@ -1,8 +1,8 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import counterReducer from '../modules/Home/slices/counter.slice';
+import SidebarReducer from '../modules/Home/slices/Sidebar.slice';
 
 const reducers = combineReducers({
-  counter: counterReducer,
+  sidebar: SidebarReducer,
 });
 
 
