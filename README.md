@@ -1,30 +1,20 @@
 # React + TypeScript + Vite
+React + TypeScript + Vite Project
+This repository provides a minimal setup to get React working in Vite with HMR and some ESLint rules. It also includes a project description for building a user interface for a startup application that helps university students and novice researchers connect with expert writers.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Description
+Build a user interface for a startup application that helps university students and novice researchers find expert writers. These writers can review, grade, assist in writing, and help build research papers. The application should ensure that students can trust the expert writers and know they will be able to support their research. Additionally, there should be a section (board) where expert writers can read documents, add comments, and correct the writing of the students' research papers. The service should be monetizable.
 
-Currently, two official plugins are available:
+Deliverables
+Graphic Design: Diagram the graphical pieces necessary to provide the conceptual image of the application.
+Mockups: Build mockups of the complete application schema to define high-fidelity prototypes, using best practices and UX/UI concepts.
+Design and Layout: Perform the design cuts and layout of the application for the web.
+User Interface: Program the user interface from scratch in React, including:
+Onboarding screen
+Login screen
+4 additional screens with a menu and a navbar suitable for an MVP
+Technologies Used
+Frontend: React, Redux, HTML5, CSS3, Tailwind CSS
+Authentication: JSON / JWT
+Language: TypeScript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
